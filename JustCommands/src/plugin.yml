@@ -1,0 +1,19 @@
+name: JustCommands
+main: nl.spectre93.just.commands.JustCommands
+version: 1.0
+author: Spectre93
+description: >
+             Description and stuff.
+commands:
+  rain:
+    description: Rain
+    usage: /<command>
+  explo:
+    description: Explo
+    usage: /<command>  
+  cle:
+    description: Clear
+    usage: /<command>  
+  magnet:
+    description: Magnet
+    usage: /<command>      

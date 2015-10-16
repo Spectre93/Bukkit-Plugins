@@ -1,0 +1,6 @@
+name: JustDispenser
+main: nl.spectre93.just.dispenser.JustDispenser
+version: 1.1
+author: Spectre93
+description: >
+             Makes dispensers shoot through blocks.

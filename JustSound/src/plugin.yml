@@ -1,0 +1,47 @@
+name: JustSound
+main: nl.spectre93.just.sound.JustSound
+version: 1.2
+author: Spectre93
+description: >
+             Description and stuff.
+commands:
+  soundlist:
+    description: Shows a list of available sounds.
+    usage: /<command> [page nr]
+  sound:
+    description: Plays a sound
+    usage: /<command> [sound] <player>
+  soundall:
+    description: Plays a sound for everyone to hear
+    usage: /<command> [sound]
+  soundset:
+    description: Sets a players login sound
+    usage: /<command> [sound] <player>  
+  jsr:
+    description: Reloads config of JustSound
+    usage: /<command>
+permissions:
+  just.sound.list:
+    description: 'Permission to use /soundlist [page nr]'
+    default: op
+  just.sound.play:
+    description: 'Permission to use /sound [sound]'
+    default: op
+  just.sound.play.other:
+    description: 'Permission to use /sound [sound] <player>'
+    default: op
+  just.sound.play.all:
+    description: 'Permission to use /soundall [sound]'
+    default: op    
+  just.sound.set:
+    description: 'Permission to use /soundset'
+    default: op
+  just.sound.set.other:
+    description: 'Permission to use /soundset <player>'
+    default: op
+  just.sound.set.default:
+    description: 'Permission to use set the default sound'
+    default: op
+  just.sound.reload:
+    description: 'Permission to use /jsr'
+    default: op

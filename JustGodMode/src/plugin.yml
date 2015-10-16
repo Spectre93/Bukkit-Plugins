@@ -1,0 +1,18 @@
+name: JustGodMode
+main: nl.spectre93.just.godmode.JustGodMode
+version: 1.2
+website: http://dev.bukkit.org/server-mods/justgodmode/
+author: Spectre93
+description: >
+             Gives the user invulnerability.
+commands:
+  god:
+    description: Toggles godmode.
+    usage: /<command> <player>
+permissions:
+  just.god:
+    description: 'Permission to use /god'
+    default: op
+  just.god.other:
+    description: 'Permission to use /god [player]'
+    default: op    

@@ -1,0 +1,14 @@
+name: JustFly
+main: nl.spectre93.just.fly.JustFly
+version: 1.0
+author: Spectre93
+description: >
+             Gives user ability to fly.
+commands:
+  fly:
+    description: Allows user to fly 
+    usage: /<command>
+permissions:
+  just.fly:
+    description: 'Permission to use /fly'
+    default: op

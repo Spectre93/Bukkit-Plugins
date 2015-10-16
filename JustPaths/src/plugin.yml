@@ -1,0 +1,25 @@
+name: JustPaths
+main: nl.spectre93.just.paths.JustPaths
+version: 1.1
+softdepend: [JustSponge]
+website: http://dev.bukkit.org/server-mods/justpaths/
+author: Spectre93
+description: >
+             Creates paths while you walk.
+commands:
+  paths:
+    description: Toggles paths active
+    usage: /<command>
+  setpath:
+    description: Changes what your path is made of and the path length
+    usage: /<command> [blockId] <pathLength>   
+  pathmax:
+    description: Changes maximum length of paths
+    usage: /<command> [length]
+permissions:
+  just.paths:
+    description: 'Permission to use /paths and /setpath.'
+    default: op
+  just.paths.max:
+    description: 'Permission to use /pathmax.'
+    default: op

@@ -1,0 +1,16 @@
+name: JustReaver
+main: nl.spectre93.JustReaver.JustReaver
+version: 1.0
+author: Spectre93
+description: >
+             Give players items as reward for recruiting new people to the server.
+commands:
+  refget:
+    description: Returns your unique code.
+    usage: /<command>
+  refcredit:
+    description: Allows you to credit the person who recruited you.
+    usage: /<command> [unique_code]
+  refreward:
+    description: Gives the one of his/her uncollected rewards.
+    usage: /<command>    

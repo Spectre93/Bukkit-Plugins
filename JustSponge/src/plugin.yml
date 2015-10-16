@@ -1,0 +1,21 @@
+name: JustSponge
+main: nl.spectre93.just.sponge.JustSponge
+version: 0.91
+author: Spectre93
+website: http://dev.bukkit.org/server-mods/justsponge/
+description: >
+             The best plugin for sponges.
+commands:
+  spongestrength:
+    description: Sets the sponge strength
+    usage: /<command> [strength]
+  spongerecipe:
+    description: Toggles craftable sponges
+    usage: /<command>    
+permissions:
+  just.sponge.strength:
+    description: 'Permission to use /spongestrength'
+    default: op
+  just.sponge.recipe:
+    description: 'Permission to use /spongerecipe'
+    default: op    

@@ -1,3 +1,12 @@
+# binary folders
+bin/
+
+# jar files
+*.jar
+
+# Eclipse files
+.settings/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

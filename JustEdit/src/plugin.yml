@@ -1,0 +1,20 @@
+name: JustEdit
+main: nl.spectre93.just.edit.JustEdit
+version: 1.0
+author: Spectre93
+description: >
+             Some basic editing functions.
+commands:
+  replace: 
+    description: Replaces blocks with given item id.
+    usage: /<command> <fromItemId> [toItemId]
+  undo: 
+    description: Undoes last action, can only be used once.
+    usage: /<command>
+permissions:
+  just.replace:
+    description: 'Permission to use /replace'
+    default: op
+  just.undo:
+    description: 'Permission to use /undo'
+    default: op

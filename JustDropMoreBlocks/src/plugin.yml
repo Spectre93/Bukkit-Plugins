@@ -1,0 +1,6 @@
+name: JustDropMoreBlocks
+main: nl.spectre93.JustDropMoreBlocks.JustDropMoreBlocks
+version: 1.0
+author: Spectre93
+description: >
+             All things you can break with something with a fortune enchantment drop more blocks based on the level of your fortune enchantment.

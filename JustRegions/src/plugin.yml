@@ -1,0 +1,14 @@
+name: JustRegions
+main: nl.spectre93.just.regions.JustRegions
+version: 1.0
+author: Spectre93
+description: >
+             Just another regions plugin.
+commands:
+  command:
+    description: 
+    usage: /<command>
+permissions:
+  perm.node:
+    description: 'Permission to use /command'
+    default: op/not op/false/true
